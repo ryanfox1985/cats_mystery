@@ -68,7 +68,7 @@ if response.code == "200"
     puts 'Failed revolving mystery'
   end
 else
-  puts 'Failed getting => #{GET_URL}'
+  puts "Failed getting => #{MYSTERY_URL}"
 end
 
 puts "End mystery!"
